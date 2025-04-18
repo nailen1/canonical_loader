@@ -2,13 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='canonical_loader',
-    version='0.1.0',
+    version='0.2.0',
     packages=find_packages(),
-    install_requires=[
-        'shining_pebbles>=0.5.3',
-        'string_date_controller>=0.1.3',
-        'tqdm',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
     author='June Young Park',
     author_email='juneyoungpaak@gmail.com',
     description='A Python module for loading and managing canonical data files with standardized naming conventions',
