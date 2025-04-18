@@ -72,6 +72,10 @@ The package supports the following file naming patterns:
 
 ## Version History
 
+### 0.2.1 (2025-04-18)
+- Fixed import bug due to module name changes
+- Ensured proper imports between base and derived classes
+
 ### 0.2.0 (2025-04-18)
 - Added AWS S3 support via S3CanonicalLoader class
 - Refactored code to use inheritance for better maintainability

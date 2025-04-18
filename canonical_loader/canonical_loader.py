@@ -1,4 +1,4 @@
-from .canonical_loader import BaseCanonicalLoader
+from .base_canonical_loader import BaseCanonicalLoader
 from shining_pebbles import scan_files_including_regex, load_csv_in_file_folder_by_regex, load_xlsx_in_file_folder_by_regex
 
 class CanonicalLoader(BaseCanonicalLoader):

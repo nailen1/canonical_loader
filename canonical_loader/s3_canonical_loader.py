@@ -1,4 +1,4 @@
-from .canonical_loader import BaseCanonicalLoader
+from .base_canonical_loader import BaseCanonicalLoader
 from aws_s3_controller import open_df_in_bucket_by_regex, open_excel_in_bucket_by_regex, scan_files_in_bucket_by_regex
 
 class S3CanonicalLoader(BaseCanonicalLoader):
